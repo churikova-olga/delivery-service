@@ -25,7 +25,7 @@
 1. Скачать репозиторий
 2. Создать файл .env <br> *DB_USERNAME <br> 
 *DB_PASSWORD <br> *DB_NAME<br> *DB_HOST=mongodb://mongodb:27017 <br> 
-*COOKIE_SECRET <br> *PORT
+*COOKIE_SECRET <br> *PORT <br>
 3. Выполнить команду <strong>docker-compose up</strong>
 
 ***
