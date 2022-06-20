@@ -28,6 +28,26 @@
 *DB_PASSWORD='password" <br> *DB_NAME='database' <br> *DB_HOST=mongodb://mongodb:27017 <br> 
 *COOKIE_SECRET='key session' <br> *PORT=3000 <br>
 3. Выполнить команду <strong>docker-compose up</strong>
+*** 
+<h3>Функционал</h3>
+
+API 
+* POST /api/signup — зарегистрироваться 
+* POST /api/signin — залогиниться
+* GET /api/advertisements — получить список объявлений.
+* GET /api/advertisements/:id — получить данные объявления.
+* POST /api/advertisements — добавить объявление.
+* DELETE /api/advertisements/:id — удалить объявление
+* PUT /api/advertisements/:id — обновить объявление
+
+SOCKET.IO
+
+* Приходящее событие 'get-history' - получить историю сообщений из чата
+* Приходящее событие 'read-at' - прочитать сообщение из чата
+* Приходящее событие 'send-message' - отправить сообщение
+* Отправляемое событие 'chat-history' - ответ на событие 'get-history'.
+* Отправляемое событие 'new-message' - отправлено новое сообщение.
+* Отправляемое событие 'read-at' - прочитано сообщение из чата
 
 ***
 Функционал проверялся в Postman. <br>
