@@ -22,7 +22,7 @@
 
 <h3>Запуск приложения</h3>
 <strong>Для запуска приложения необходим docker</strong> <br>
-1. Скачать репозиторий
+1. Скачать репозиторий <br>
 2. Создать файл .env <br> *DB_USERNAME <br> 
 *DB_PASSWORD <br> *DB_NAME<br> *DB_HOST=mongodb://mongodb:27017 <br> 
 *COOKIE_SECRET <br> *PORT <br>
